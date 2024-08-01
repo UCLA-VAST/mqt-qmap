@@ -80,7 +80,7 @@ protected:
   auto validateCircuit() -> void;
   auto postprocess() -> void {
     makeLogicalArrays();
-    calculateMovements();
+   // calculateMovements();
   }
   auto makeLogicalArrays() -> void;
   auto calculateMovements() -> void;
